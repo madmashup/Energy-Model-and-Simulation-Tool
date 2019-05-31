@@ -1,0 +1,35 @@
+{% include 'start.html' %}
+
+<div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center" style="height:40px; margin-top: 25px;">
+            	<button type="button" class="btn btn-primary">Primary Energy</button>
+            	<button type="button" class="btn btn-primary">Secondary Energy</button>
+            	<button type="button" class="btn btn-primary">Final Energy</button>
+            </div>
+          </div>
+</div>
+
+<h1>Primary Energy</h1>
+	<div class="box">
+		<a class="button" href="#popup1">Primary Energy|Biomass</a>
+		<a class="button" href="#popup1">Primary Energy|Biomass|Modern</a>
+		<a class="button" href="#popup1">Primary Energy|Biomass|Traditional</a>
+		<a class="button" href="#popup1">Primary Energy|Coal</a>
+		<a class="button" href="#popup1">Primary Energy|Coal|Domestic</a>
+		<a class="button" href="#popup1">Primary Energy|Coal|Import</a>
+		<a class="button" href="#popup1">Primary Energy|Coal|w/ CCS</a>
+
+	</div>
+
+	<div id="popup1" class="overlay">
+		<div class="popup">
+			<h2>Area Chart</h2>
+			<a class="close" href="#">&times;</a>
+			<div class="content">
+				<img src="">
+			</div>
+		</div>
+	</div>
+
+{% include 'end.html' %}	

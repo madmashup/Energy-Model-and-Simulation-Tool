@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  background: url("wallpaper.png");
+  background-size: cover;
+  
+  /* CENTER TITLE Y */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  /* CENTER TITLE X */
+  align-items: center;
+  height: 100vh;
+}
+
+h1,h3 {
+  font-family: Roboto;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p {
+  max-width: 960px;
+  margin: 0 auto 20px;
+  padding: 0px 5%;
+  font-family: Roboto;
+  line-height: 1.6em;
+  color: #5A5A5A;
+}
+.text-content {
+  margin-bottom: 100px;
+}

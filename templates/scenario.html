@@ -1,0 +1,64 @@
+{% include 'start.html' %}
+
+<form name="dropdown" action="{{ /scenario }}" method="POST">
+<div class="inner contact">
+
+    <!-- Form Area -->
+    <div class="contact-form">
+            <!-- Left Inputs -->
+            <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+                <!-- Name -->
+                <input style="display: block;" type="text" name="gas_peak_load_share" id="name" required="required" class="form" placeholder="gas_peak_load_share" />
+                <br />
+                <!-- Email -->
+                <input style="display: block;" type="email" name="inconvenience_costs" id="mail" required="required" class="form" placeholder="inconvenience_costs" />
+                <br />
+                <!-- Subject -->
+                <input style="display: block;" type="text" name="elec_veh_pen" id="subject" required="required" class="form" placeholder="elec_veh_pen" />
+                <br />
+
+                <input style="display: block;" type="text" name="industry_elec_thermal" id="subject" required="required" class="form" placeholder="industry_elec_thermal" />
+                <br />
+                <input style="display: block;" type="text" name="elec_cook" id="subject" required="required" class="form" placeholder="elec_cook" />
+                <br />
+                <input style="display: block;" type="text" name="lpg_cook" id="subject" required="required" class="form" placeholder="lpg_cook" />
+                <br />
+                <input style="display: block;" type="text" name="industrial_efficiency" id="subject" required="required" class="form" placeholder="industrial_efficiency" />
+                <br />
+                <input style="display: block;" type="text" name="passenger_IWT" id="subject" required="required" class="form" placeholder="passenger_IWT" />
+                <br />
+                <input style="display: block;" type="text" name="freight_IWT" id="subject" required="required" class="form" placeholder="freight_IWT" />
+                <br />
+                <input style="display: block;" type="text" name="Solar_thermal" id="subject" required="required" class="form" placeholder="Solar_thermal" />
+                <br />
+                <input style="display: block;" type="text" name="dist_efficiency" id="subject" required="required" class="form" placeholder="dist_efficiency" />
+                <br />
+                <input style="display: block;" type="text" name="RPO_constraint" id="subject" required="required" class="form" placeholder="RPO_constraint" />
+                <br />
+                <input style="display: block;" type="text" name="share_constraints" id="subject" required="required" class="form" placeholder="share_constraints" />
+                <br />
+            </div><!-- End Left Inputs -->
+            
+
+            <!-- Right Inputs -->
+            <!-- <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                
+                <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+            </div> -->
+            <!-- End Right Inputs -->
+
+
+            <!-- Bottom Submit -->
+            <div class="relative fullwidth col-xs-12">
+                <!-- Send Button -->
+                <button type="submit" id="submit" name="submit" class="form-btn semibold">Submit</button> 
+            </div><!-- End Bottom Submit -->
+            <!-- Clear -->
+            <div class="clear"></div>
+        </form>
+
+    </div><!-- End Contact Form Area -->
+</div><!-- End Inner -->
+
+
+{% include 'end.html' %}
